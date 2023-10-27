@@ -5,21 +5,21 @@ body:
     id: the-bug
     attributes:
       label: Fehlerbeschreibung
-      description: Bitte beschreibe den Fehler. Fügen Sie **Details** ein, die Sie für notwendig erachten. Wenn möglich Schritte zum reproduozieren
+      description: Bitte beschreibe den Fehler. Fügen Sie **Details** ein, die Sie für notwendig erachten. Wenn möglich Schritte zum reproduzieren
     validations:
       required: true
   - type: input
     id: client-version
     attributes:
       label: Client version
-      description: Version deines spiels
-      placeholder: e.g. vanilla 1.18.2 or labymod 1.20.1
+      description: Version deines Spiels
+      placeholder: e.g. vanilla 1.18.2 or LabyMod 1.20.1
     validations:
       required: true
   - type: input
     id: account
     attributes:
-      label: Aktueller Minecraftname
+      label: Aktueller Minecraft-Name
       placeholder: McExpertDE
     validations:
       required: true
@@ -34,6 +34,6 @@ body:
     attributes:
       label: Wann und wo ist der Fehler aufgetreten?
       description: Deinen aktuellen Server findest du im Tab
-      placeholder: Auf games1 28.10.2023 ~9:44
+      placeholder: Auf games-1 28.10.2023 ~9:44
     validations:
       required: true
