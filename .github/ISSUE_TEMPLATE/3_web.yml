@@ -1,0 +1,30 @@
+name: Web Bug melden
+description: Melde einen Bug der dir auf einer Timolia website aufgefallen ist
+body:
+  - type: markdown
+    attributes:
+      value: |
+        #### Gerade bei Darstellungs problemen können Screenshots unglaublich weiterhelfen
+  - type: textarea
+    id: the-bug
+    attributes:
+      label: Fehlerbeschreibung
+      description: Bitte beschreibe den Fehler. Fügen Sie **Details** ein, die Sie für notwendig erachten. Wenn möglich Schritte zum reproduzieren
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      description: Welchen Browser hast du benutzt
+      placeholder: e.g. Chrome 101
+    validations:
+      required: true
+  - type: input
+    id: meta
+    attributes:
+      label: Wann und wo ist der Fehler aufgetreten?
+      description: Deinen aktuellen Server findest du im Tab
+      placeholder: Auf https://timolia.de/stats am 28.10.2023 ~9:44
+    validations:
+      required: true
