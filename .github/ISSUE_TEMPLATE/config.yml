@@ -2,7 +2,7 @@ blank_issues_enabled: false
 contact_links:
   - name: Ich wurde gebannt
     url: https://timolia.de/discord
-    about: Bitte erstelle ein Ticket in auf Discord!
+    about: Bitte erstelle ein Ticket auf Discord!
   - name: Ich brauche Hilfe
     url: https://timolia.de/discord
     about: Bitte nutze den Communitysupport auf unserem Discord!
