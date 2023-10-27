@@ -1,0 +1,18 @@
+name: Mapfehler melden
+description: Ein Mapfehler liegt vor, wenn Blöcke fehlen oder falsch gesetzt sind oder man vorgesehenen Bereich verlassen kann
+body:
+  - type: input
+    id: map
+    attributes:
+      label: Map name und Spielmodi
+      description: Version deines Spiels
+      placeholder: Casltes Pirates
+    validations:
+      required: true
+  - type: textarea
+    id: the-bug
+    attributes:
+      label: Fehlerbeschreibung
+      description: Bitte beschreibe den Fehler mit den **genauen Koordinaten**
+    validations:
+      required: true
